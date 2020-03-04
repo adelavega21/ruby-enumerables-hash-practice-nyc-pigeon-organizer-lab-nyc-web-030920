@@ -6,5 +6,5 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         
         if !new_hash[name]
-          new_hash
+          new_hash[name] = {}
 end
